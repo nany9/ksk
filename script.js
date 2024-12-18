@@ -55,6 +55,9 @@ document.addEventListener('DOMContentLoaded', function () {
         if (currentPresetIndex > 0) {
           currentPresetIndex--;
           updateTrapsAmount();
+        } else {
+          currentPresetIndex = trapsOptions.length - 1;
+          updateTrapsAmount();
         }
       });
     }
@@ -63,6 +66,11 @@ document.addEventListener('DOMContentLoaded', function () {
         if (currentPresetIndex < trapsOptions.length - 1) {
           currentPresetIndex++;
           updateTrapsAmount();
+        } else {
+          currentPresetIndex = 0;
+          updateTrapsAmount();
+
+
         }
       });
     }
