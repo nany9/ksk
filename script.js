@@ -1,4 +1,9 @@
 document.addEventListener('DOMContentLoaded', function () {
+    const queryString = window.location.search;
+    console.log(queryString);
+    const urlParams = new URLSearchParams(queryString);
+    const l = urlParams.get('lang')
+    alert(l);
     const cellsBoard = document.querySelector('.cells-board');
     if (!cellsBoard) {
       console.error('Элемент .cells-board не найден.');
