@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', function () {
     }
     setTimeout(hidePreloader, 3000);
   
-    const trapsOptions = [1, 3, 5, 7, 10];
+    const trapsOptions = [1, 3, 5, 7];
     const trapsToCellsOpenMapping = {
       1: 10,
       3: 5,
