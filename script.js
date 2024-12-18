@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded', function () {
       3: 5,
       5: 4,
       7: 3,
-      10: 10
+      10: 2
     };
     let currentPresetIndex = 0;
     const trapsAmountElement = document.getElementById('trapsAmount');
